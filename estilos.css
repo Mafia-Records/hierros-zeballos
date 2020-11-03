@@ -1,26 +1,73 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    
 }
-.navbar {
+
+/*==================== Barra de mavegacion ====================*/
+.encabezado {
+    padding-top: 20px;
     height: 100px;
 }
-.banner {
-    background-image:url("img/hierro.png");
-    background-size: cover;
-    color:white;
-    height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+.logo {
+    border-radius: 2px;
 }
-h1 {
-    background-color: black;
-    padding:16px;
+.navbar {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.h2 {
+    padding-top:30px;
+    margin-left:0px;  
 }
 .clientes {
-    margin-top: 50px;
+    margin-top: 190px;
     height: 850px;
+}
+.familia {
+    margin-top:150px;
+}
+@media screen and (max-width: 600px) {
+    .home {
+        padding-top: 30px;
+    }
+}
+
+/*==================== Slider ====================*/
+
+.carousel-item {
+    height: 500px;
+}
+/*=============== POSTER DE CUIDARNOS ==============*/
+
+.poster {
+    height: 500px;
+    background: orange;
+}
+.zeballos {
+    margin-left: 20px;
+    width: 350px;
+    padding: 10px;
+    color:orange;
+}
+.cuidarnos {
+    margin-left: 20px;
+    margin-top:20px;
+}
+.icono {
+    font-size: 40px;
+}
+/*======================= COLOR DE TEXTOS Y FONDOS ===================*/
+.text-orange{
+    color:orange !important;
+}
+.bg-orange {
+    background-color: orange;
+}
+
+/*======================= Sucursales ===================*/
+.casacentral {
+    padding-top: 200px;
 }
