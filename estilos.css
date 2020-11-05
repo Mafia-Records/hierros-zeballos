@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    
+    box-sizing: border-box;
 }
 
 /*==================== Barra de mavegacion ====================*/
@@ -16,7 +16,9 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
+.navbar-brand {
+    padding-left: 20px;
+}
 
 .h2 {
     padding-top:30px;
@@ -40,6 +42,78 @@
 .carousel-item {
     height: 500px;
 }
+
+.mySlides {
+    display: none;
+}
+.img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  color:transparent;
+  background-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 6.6s ease;
+}
+
+.active {
+  background-color: transparent;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5.5s;
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .8} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .8} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
 /*=============== POSTER DE CUIDARNOS ==============*/
 
 .poster {
@@ -59,15 +133,74 @@
 .icono {
     font-size: 40px;
 }
+/*======================= Acerca de hierros Zeballos ===================*/
+.vermas {
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+}
+.vermas:hover {
+    background-color: gray;
+    color:orange;
+}
 /*======================= COLOR DE TEXTOS Y FONDOS ===================*/
 .text-orange{
     color:orange !important;
 }
+.text-green {
+    font-size: 40px;
+    color: green;
+}
+.text-cyan {
+    color:rgb(115, 203, 233);
+    font-weight: bold;
+}
 .bg-orange {
     background-color: orange;
 }
+.thick-text {
+    font-size: 30px;
+    font-weight:bold;
+}
 
-/*======================= Sucursales ===================*/
+/*======================= Sucursales.html ===================*/
 .casacentral {
     padding-top: 200px;
+}
+/*====================== contacto.html ===================*/
+.contacto {
+    padding:300px;
+}
+/*====================== donde estes en tu obra ================*/
+.hover:hover {
+    opacity: .4;
+}
+/*====================== caños estructurales ==================*/
+.cañosestructurales {
+    background-image: url("img/canosestructurales.png");
+    width: 100%;
+    background-size: cover;
+    height: 700px;
+}
+.cañitosestruct {
+    background-image: url("img/canosestructurales.png");
+    width: 100%;
+    background-size: cover;
+    height: 200px;
+}
+.container-productos {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+/*====================== footer ====================*/
+.div-sticky {
+    height: 100px;
+    background-color: green;
+    position: fixed; 
+    bottom: 0;
+    top:1000;
+    right: 0;
+    width: 100%;
+}
+footer {
+    height: 400px;
 }
