@@ -1,0 +1,475 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*==================== Barra de mavegacion ====================*/
+.encabezado {
+    padding-top: 20px;
+    height: 100px;
+}
+.logo {
+    border-radius: 2px;
+}
+.navbar {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+@media (max-width: 600px){
+    .acercadehierros {
+        padding-top: 180px;;
+    }
+}
+/*.ph1 {
+    margin-top: 140px;
+    height: 300px;
+    display:flex;
+    align-items:center;
+    text-align: center;
+}
+/* .h1 {
+    margin-top: 300px;
+    text-align: center;
+} */
+
+.h2 {
+    padding-top:30px;
+    margin-left:0px;  
+}
+.clientes {
+    margin-top: 120px;
+    height: 780px;
+    padding-top: 100px;  
+    font-size: 15px;
+}
+.reparto {
+    
+    font-size: 20px;
+}
+.familia {
+    font-size: 20px;
+}
+
+@media (max-width: 600px){
+    .clientes {
+        padding-top: 60px;
+    }
+    .h3 {
+        font-size: 20px;
+    }
+}
+@media(min-width: 600px) {
+    .clientes {
+        padding-top: 80px;
+        height: 680px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .home {
+        padding-top: 30px;
+    }
+}
+
+/*==================== Slider ====================*/
+.carousel-item {
+    height: 500px;
+}
+@media(max-width: 600px){
+    .carousel-item {
+        height: 200px; 
+    }
+}
+.mySlides {
+    display: none;
+}
+.img {
+    vertical-align: middle;
+    height: 300px;
+    width: 100%;
+}
+@media(max-width: 600px){
+    .img {
+        height: 200px;
+    }
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  color:transparent;
+  background-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 6.6s ease;
+}
+
+.active {
+  background-color: transparent;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5.5s;
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .8} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .8} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/*=============== POSTER DE CUIDARNOS ==============*/
+
+.poster {
+    height: 500px;
+    background: orange;
+}
+.zeballos {
+    margin-left: 20px;
+    width: 350px;
+    padding: 10px;
+    color:orange;
+}
+@media (max-width: 600px) {
+ .zeballos {
+     margin-left: 0px;
+ }
+}
+.cuidarnos {
+    margin-left: 20px;
+    margin-top:20px;
+}
+.icono {
+    font-size: 40px;
+}
+/*======================= Acerca de hierros Zeballos ===================*/
+.vermas {
+    padding: 8px 10px 8px 10px;
+    color: black;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 25px;
+}
+.vermas:hover {
+    background-color: rgb(146, 144, 144);
+    text-decoration: none;
+    color:orange;
+    transition: all 0.5s ease;
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+}
+/*======================= COLOR DE TEXTOS Y FONDOS ===================*/
+.text-orange{
+    color:orange !important;
+}
+.text-green {
+    font-size: 40px;
+    color: green;
+}
+.text-cyan {
+    color:rgb(115, 203, 233);
+    font-weight: bold;
+}
+.bg-orange {
+    background-color: orange;
+}
+.thick-text {
+    font-size: 20px;
+    font-weight:bold;
+}
+
+/*======================= Sucursales.html ===================*/
+.casacentral {
+    padding-top: 200px;
+}
+/*====================== contacto.html ===================*/
+.contacto {
+    padding:200px;
+}
+.h5 {
+    font-size: 20px;
+    color:black;
+}
+.diprogmail {
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+}
+.diprogmail:hover {
+    color:orange;
+}
+/*====================== donde estes en tu obra ================*/
+.contenedorcanios {
+    overflow: hidden;  
+}
+.contenedorcanios:hover .img1{
+    filter: sepia(90%);
+    transition: all 1.5s ease;
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+}
+/*====================== PRODUCTOS ==================*/
+/*.imgbanner {
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+}*/
+.imgbanner {
+    padding-top: 100px;
+    background-image: url("../img/productos/hierro-angulo-2.png");
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    filter: sepia(90%);
+}
+.imgbanner h1 {
+    background-color: black;
+    color : white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.imgbanner2 {
+    padding-top: 100px;
+    background-image: url("../img/productos/planchuelas-hierro-1.png");
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    filter: sepia(90%);
+}
+.imgbanner2 h1 {
+    background-color: black;
+    color : white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.imgbanner3 {
+    padding-top: 100px;
+    background-image: url("../img/productos/barras-laminadas.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    filter: sepia(90%);
+    
+}
+.imgbanner3 h1 {
+    background-color: black;
+    color : white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.imgbanner4 {
+    padding-top: 100px;
+    background-image: url("../img/productos/tubos-estructurales.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    filter: sepia(90%);
+    
+}
+.imgbanner4 h1 {
+    background-color: black;
+    color : white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.imgbanner5 {
+    padding-top: 100px;
+    background-image: url("../img/productos/perfil-C.png");
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    filter: sepia(90%);
+    
+}
+.imgbanner5 h1 {
+    background-color: black;
+    color : white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.imgbanner6 {
+    padding-top: 100px;
+    background-image: url("../img/productos/perfil-U.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    filter: sepia(90%);
+    
+}
+.imgbanner6 h1 {
+    background-color: black;
+    color : white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.imgbanner7 {
+    padding-top: 100px;
+    background-image: url("../img/productos/perfil-IPN.png");
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    filter: sepia(90%);
+    
+}
+.imgbanner7 h1 {
+    background-color: black;
+    color : white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.imgbanner8 {
+    padding-top: 100px;
+    background-image: url("../img/productos/malla.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    filter: sepia(90%);
+    
+}
+.imgbanner8 h1 {
+    background-color: black;
+    color : white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+.img-produc {
+    
+    width: 100%;
+    background-size: cover;
+    height: 200px;
+}
+
+.container-productos {
+    margin-top: 100px;
+    
+}
+/*================ icono fixed ===================*/
+
+.WhatsApp {
+    position: fixed;
+    width: 72px;
+    height: 70px;
+    bottom: 0;
+    right: 0;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    background-color: rgb(0, 255, 0);
+    border-radius: 50%;
+    color:black;
+    font-size: 50px;
+    /*position: fixed;
+    width: 60px;
+    right: 0;
+    height: 60px;
+    bottom: 0px;
+    left: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: green;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 50px;*/ 
+}
+.WhatsApp i {
+    margin-left: 14px;
+}
+/*====================== footer ====================*/
+.div-sticky {
+    height: 100px;
+    background-color: green;
+    position: fixed; 
+    bottom: 0;
+    top:1000;
+    right: 0;
+    width: 100%;
+}
+footer {
+    height: 200px;
+}
+footer h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+.mafia2 {
+    text-align: center;
+    font-size: 30px;
+}
+.iframe {
+    height: 450px;
+    width: 100%;
+}
+/*====================== TABLAS =====================*/
+table {
+    width: 100%;
+    margin-bottom: 50px;
+}
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    table {
+        font-size: 10px;
+    }
+}
+
